@@ -12,7 +12,7 @@ export const SidebarData = [
   },
   
   {
-    title: "ブログ一覧",
+    title: "myブログ一覧",
     icon: <ImportContactsIcon/>,
     link: "/index",
   },
