@@ -45,3 +45,31 @@
   align-items: center;
   margin-top: 20px;
 }
+
+
+
+/* アニメーションの定義 */
+@keyframes slide-in {
+  from {
+    transform: translateY(-50px); /* 上から50px移動 */
+    opacity: 0; /* 透明から表示 */
+  }
+  to {
+    transform: translateY(0); /* 元の位置に移動 */
+    opacity: 1; /* 完全に表示 */
+  }
+}
+
+/* アニメーションの定義 */
+@keyframes slide-out {
+  from {
+    transform: translateY(0); /* 元の位置 */
+    opacity: 1; /* 完全に表示 */
+  }
+  to {
+    transform: translateY(-50px); /* 上に50px移動 */
+    opacity: 0; /* 透明に */
+  }
+}
+
+

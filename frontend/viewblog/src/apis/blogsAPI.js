@@ -10,4 +10,7 @@ const fetchPosts = () => {
   .catch((e) => console.error(e))
 }
 
+
+
 export default fetchPosts
+
